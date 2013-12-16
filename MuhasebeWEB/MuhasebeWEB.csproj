@@ -167,6 +167,7 @@
     <Content Include="js\script.js" />
     <Content Include="js\superfish.js" />
     <Content Include="js\touchTouch.jquery.js" />
+    <Content Include="mevzuat.aspx" />
     <Content Include="sektorler.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -184,6 +185,13 @@
     </Compile>
     <Compile Include="hakkimizda.aspx.designer.cs">
       <DependentUpon>hakkimizda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mevzuat.aspx.cs">
+      <DependentUpon>mevzuat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mevzuat.aspx.designer.cs">
+      <DependentUpon>mevzuat.aspx</DependentUpon>
     </Compile>
     <Compile Include="Muhasebe.Master.cs">
       <DependentUpon>Muhasebe.Master</DependentUpon>
