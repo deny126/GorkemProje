@@ -167,6 +167,7 @@
     <Content Include="js\script.js" />
     <Content Include="js\superfish.js" />
     <Content Include="js\touchTouch.jquery.js" />
+    <Content Include="sektorler.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -192,6 +193,13 @@
       <DependentUpon>Muhasebe.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sektorler.aspx.cs">
+      <DependentUpon>sektorler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sektorler.aspx.designer.cs">
+      <DependentUpon>sektorler.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\.DS_Store" />
