@@ -1,0 +1,179 @@
+nav { 
+	float: right;
+	position:relative; 
+	z-index: 11;
+}
+
+.sf-menu {margin-top: 94px;}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu li { 
+	position:relative;
+	padding-left: 0px;
+}
+.sf-menu > li {float: left; }
+	.sf-menu a {
+		display: block;
+		font-family: 'Open Sans', sans-serif; 
+		text-transform: uppercase;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #ffffff;
+		font-size: 12px; 
+		line-height: 12px;
+	}
+		.sf-menu a:hover {text-decoration: none;}
+		.sf-menu li:hover span {color:#ffffff;}
+
+/*================================>> 1 Level <<========================================*/
+
+.sf-menu > li > a {
+	display:block;
+	padding: 22px 37px 22px;
+	text-align: center;
+	-moz-transition: background 0.3s ease-out;
+    -o-transition: background 0.3s ease-out;
+    -webkit-transition: background 0.3s ease-out;
+    position: relative;
+    letter-spacing: 1px;
+    background: #353d53 url(../images/bg-2.gif) 0 0 repeat;
+}
+.sf-menu > li {
+	display: block;
+	position: relative;
+}
+.sf-menu > li:first-child { background: no-repeat;}
+	.sf-menu > li.current,
+	.sf-menu > li:hover,
+	.sf-menu > li.sfHover {	}
+
+	.sf-menu > li > a:hover, 
+	.sf-menu > li.current > a, 
+	.sf-menu > li.sfHover > a {	background: transparent url(../images/bg-3.gif) 0 0 repeat;}
+	.sf-menu > li > a > .sf-sub-indicator {
+		display: block;
+		overflow: hidden;
+		border: 6px solid;
+		border-color:  #e8eef6 transparent transparent transparent;
+		height: 0;
+		width: 0;
+		text-indent: -1000px;
+		position: absolute;
+		top: 40px;
+		left: 50%;
+		margin-left: -6px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu > li > ul, 
+.sf-menu > li.sfHover > ul {
+	left:0px;
+	top:63px;
+	width:247px;
+	z-index:99;
+	background: #3f4964;
+	text-align: left;
+	padding-top: 23px;
+	padding-bottom: 32px;
+	border-top: 0px; 
+}
+
+.sf-menu > li > ul > li > a {
+	display: block;
+	text-align: left;
+	padding: 8px 32px 6px;
+	letter-spacing: 1px;
+	position: relative;
+}
+.sf-menu li li a:hover, 
+.sf-menu li.sfHover li.sfHover>a,
+.sf-menu li li:hover span,
+.sf-menu li.sfHover li.sfHover span { 
+	text-decoration: none;
+	color: #3f4964;
+	background: #ffffff;
+}
+
+.sf-menu li.sfHover span {
+	color: #242424;
+}
+	.sf-menu > li > ul .sf-sub-indicator {
+		display: block;
+		overflow: hidden;
+		border: 4px solid;
+		border-color: transparent transparent transparent #e8eef6;
+		height: 0;
+		width: 0;
+		text-indent: -1000px;
+		position: absolute;
+		top: 10px;
+		right: 5px;
+	}
+	.sf-menu > li > ul > li:hover .sf-sub-indicator,
+	.sf-menu > li > ul > li.sfHover .sf-sub-indicator { border-color: transparent transparent transparent #343c53;}
+
+/*================================>> 3 Level <<========================================*/
+
+.sf-menu li li ul {
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index:99;
+	position: relative;
+	/*padding-top: 3px;*/
+	/*padding-bottom: 3px;*/
+
+}
+.sf-menu li li li a {
+	text-decoration: none;
+	color: #ffffff;
+	text-align: left;
+	padding-left: 42px;
+	padding: 8px 0 6px 55px;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 1px;
+}
+.sf-menu li li li:first-child a { border-top: 0px;}
+.sf-menu li li li:hover {}
+	.sf-menu li li li:hover a {	color: #fff; background: #333b52;}
+
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+
+@media only screen and (max-width: 995px) {
+	.sf-menu > li > a {padding: 22px 20px 22px;}
+}
+
+@media only screen and (max-width: 767px) {
+	.sf-menu { display:none; }
+
+	nav select {
+		height: 30px;
+		border: 1px solid #bebebe;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+		color: #313951;
+		background-color: #e6ecf6;
+		width:100%;
+	    outline: none;
+	    padding: 5px;
+		font-weight: normal;
+		margin-top: 20px;
+	}
+	nav select option:first-child {
+		color:#ffffff;
+	}
+	header nav,	header h1 {	float: none;}
+	header h1 {	-webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+}
+
+@media only screen and (max-width: 479px) {
+
+}

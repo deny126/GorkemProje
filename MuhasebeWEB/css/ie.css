@@ -1,0 +1,28 @@
+
+body { min-width: 960px;}
+
+.row-1 .bg-5 { behavior:url(js/PIE.htc); position:relative;}
+
+.list_carousel .arrows .prev,
+.list_carousel .arrows .next {filter: alpha(opacity = 100);}
+.list_carousel .arrows .prev:hover, .list_carousel .arrows .next:hover {filter: alpha(opacity = 80);}
+.slider .camera_prev, .camera_next, .camera_commands {filter: alpha(opacity = 100);}
+.slider .camera_azure_skin .camera_prev > span,
+.slider .camera_azure_skin .camera_next > span {filter: alpha(opacity = 100);}
+.slider .camera_azure_skin .camera_prev > span:hover,
+.slider .camera_azure_skin .camera_next > span:hover {filter: alpha(opacity = 80);}
+.row-1 .box-1:after {filter: alpha(opacity = 0); }
+.row-1 .box-1:hover:after {filter: alpha(opacity = 100);}
+
+.box-1 .inside { letter-spacing: 2px;}
+.bg-box-5 .inside { letter-spacing: 0px;}
+.list-1 li a { letter-spacing: 0px;}
+
+.row-1 .bg-box-1:after { display: none;}
+.row-1 .bg-box-2:after { display: none;}
+.row-1 .bg-box-3:after { display: none;}
+.row-1 .bg-box-4:after { display: none;}
+.row-1 .bg-box-1:hover:after { display: block; background: #899e37 url(../images/icon-1.png) center 25px no-repeat; }
+.row-1 .bg-box-2:hover:after { display: block; background: #c3a722 url(../images/icon-2.png) center 25px no-repeat; }
+.row-1 .bg-box-3:hover:after { display: block; background: #d37e18 url(../images/icon-3.png) center 25px no-repeat; }
+.row-1 .bg-box-4:hover:after { display: block; background: #ca6642 url(../images/icon-4.png) center 25px no-repeat; }
