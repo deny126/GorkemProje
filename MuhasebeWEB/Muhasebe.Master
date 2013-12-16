@@ -183,6 +183,7 @@
                     </div>
                 </div>
             </div>
+            <asp:ContentPlaceHolder ID="Slide" runat="server">
             <div class="row">
                 <div class="grid_12 slider clearfix">
                     <div class="camera_wrap camera_azure_skin" id="Div1">
@@ -211,21 +212,16 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div></asp:ContentPlaceHolder>
         </header>
 
         <!--=======content================================-->
-           <section class="content main-content">
+         <section class="content main-content">
         <div class="container_12">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-
-
-
-
-
-</section>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+         </div>
+    </section>
         <!--=======footer=================================-->
 
         <footer>
