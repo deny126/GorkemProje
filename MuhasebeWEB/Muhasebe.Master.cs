@@ -20,9 +20,7 @@ namespace MuhasebeWEB
 
             switch (pageName)
             {
-                case "Default.aspx":
-                    default1.Attributes["class"] = "current";
-                    break;
+               
                 case "sektorler.aspx":
                     sektor.Attributes["class"] = "current";
                     break;
@@ -31,6 +29,9 @@ namespace MuhasebeWEB
                     break;
                 case "iletisim.aspx":
                     iletisim.Attributes["class"] = "current";
+                    break;
+                default:
+                    default1.Attributes["class"] = "current";
                     break;
             }
         }
