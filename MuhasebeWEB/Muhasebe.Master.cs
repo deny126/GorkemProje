@@ -20,7 +20,6 @@ namespace MuhasebeWEB
 
             switch (pageName)
             {
-               
                 case "sektorler.aspx":
                     sektor.Attributes["class"] = "current";
                     break;
