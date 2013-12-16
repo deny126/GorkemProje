@@ -42,7 +42,7 @@
                                 <span class="empty">*Zorunlu Alan.</span>
                             </label>
                             <label class="message">
-                                <textarea style="margin: 2px; width: 469px; height: 149px;">Mesaj:</textarea>
+                                <textarea>Mesaj:</textarea>
                                 <span class="error">*Mesajınız çok kısa.</span>
                                 <span class="empty">*Zorunlu Alan.</span>
                             </label>
