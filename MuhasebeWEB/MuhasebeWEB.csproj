@@ -145,12 +145,8 @@
     <Content Include="images\slide-3.jpg" />
     <Content Include="images\ui.totop.png" />
     <Content Include="images\Untitled-1.png" />
-    <Content Include="index-1.html" />
-    <Content Include="index-2.html" />
-    <Content Include="index-3.html" />
-    <Content Include="index-4.html" />
     <Content Include="index-5.html" />
-    <Content Include="index.html" />
+    <Content Include="inde.html" />
     <Content Include="js\camera.js" />
     <Content Include="js\forms.js" />
     <Content Include="js\html5shiv.js" />

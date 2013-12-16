@@ -107,9 +107,9 @@
                         </h1>
                         <nav>
                             <ul class="sf-menu">
-                                <li class="current"><a href="Default.aspx">Ana Sayfa</a></li>
+                                <li id="default1" runat="server"><a href="Default.aspx">Ana Sayfa</a></li>
 
-                                <li><a href="sektorler.aspx">Sektörler</a>
+                                <li id="sektor" runat="server"><a href="sektorler.aspx">Sektörler</a>
                                     <ul>
                                         <li><a href="#">Implementation</a></li>
                                         <li><a href="#">SEO Marketing</a>
@@ -122,8 +122,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="mevzuat.aspx">Mevzuat</a></li>
-                                <li><a href="index-4.html">İLetİŞİm</a></li>
+                                <li id="mevzuat" runat="server"><a href="mevzuat.aspx">Mevzuat</a></li>
+                                <li id="iletisim" runat="server"><a href="iletisim.aspx">İLetİŞİm</a></li>
                             </ul>
                         </nav>
                     </div>

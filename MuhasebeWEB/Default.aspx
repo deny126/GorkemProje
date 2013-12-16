@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Muhasebe.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MuhasebeWEB.Default" %>
+﻿<%@ Page Title="Akyol Mali Müşavirlik" Language="C#" MasterPageFile="~/Muhasebe.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MuhasebeWEB.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 

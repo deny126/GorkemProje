@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Muhasebe.Master" AutoEventWireup="true" CodeBehind="iletisim.aspx.cs" Inherits="MuhasebeWEB.iletisim" %>
+﻿<%@ Page Title="İletişim" Language="C#" MasterPageFile="~/Muhasebe.Master" AutoEventWireup="true" CodeBehind="iletisim.aspx.cs" Inherits="MuhasebeWEB.iletisim" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -6,7 +6,8 @@
             <div class="grid_5">
                 <div class="bg-6 block-6">
                     <h2>İletişim</h2>
-                    <iframe id="map_canvas" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                    <iframe id="map_canvas" src="https://maps.google.com/maps/ms?msa=0&amp;msid=213881856331228191316.0004edae6a4895661e66d&amp;ie=UTF8&amp;t=h&amp;z=17&amp;output=embed""></iframe>
+                  
                     <dl class="address">
                         <dt>İran Cad No:21/467, <br>
                         Çankaya Ankara.</dt>
@@ -19,7 +20,7 @@
             </div>
             <div class="grid_7">
                 <div class="bg-6 block-7">
-                    <h2 class="regular">MEsaj GÖNDERİN</h2>
+                    <h2 class="regular">Mesaj GÖNDERİN</h2>
                     <form id="contact-form">
                         <div class="success">Mesajınız iletildi!<br>
                             <strong>En kısa zamanda sizinle iletişime geçeceğiz.</strong>
