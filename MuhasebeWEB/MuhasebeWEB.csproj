@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\MuhasebeWEB.dll" />
+    <Content Include="bin\MuhasebeWEB.pdb" />
     <Content Include="css\camera.css" />
     <Content Include="css\contacts.css" />
     <Content Include="css\ie.css" />
@@ -227,6 +229,7 @@
     <Content Include="images\Thumbs.db" />
     <Content Include="js\PIE.php" />
     <Content Include="Muhasebe.Master" />
+    <Content Include="bat\MailHandler.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
