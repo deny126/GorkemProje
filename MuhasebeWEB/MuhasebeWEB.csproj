@@ -223,6 +223,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\.DS_Store" />
     <Content Include="images\camera\Thumbs.db" />
     <Content Include="images\Thumbs.db" />
     <Content Include="js\PIE.php" />
