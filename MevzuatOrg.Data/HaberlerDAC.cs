@@ -12,7 +12,7 @@ namespace MevzuatOrg.Data
         {
             List<Haberler> resultsList = null;
 
-            
+
         }
     }
 }
