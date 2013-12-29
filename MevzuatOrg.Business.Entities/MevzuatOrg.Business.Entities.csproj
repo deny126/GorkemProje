@@ -98,6 +98,7 @@
     <Compile Include="aspnet_WebEvent_Events.cs">
       <DependentUpon>ModelMevzuatOrg.tt</DependentUpon>
     </Compile>
+    <Compile Include="Haberler2.cs" />
     <Compile Include="Duyurular.cs">
       <DependentUpon>ModelMevzuatOrg.tt</DependentUpon>
     </Compile>
@@ -163,6 +164,7 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ModelMevzuatOrg.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="ClassDiagram1.cd" />
     <None Include="ModelMevzuatOrg.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ModelMevzuatOrg.edmx</DependentUpon>
