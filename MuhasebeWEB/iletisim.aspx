@@ -21,7 +21,7 @@
             <div class="grid_7">
                 <div class="bg-6 block-7">
                     <h2 class="regular">Mesaj GÖNDERİN</h2>
-                    <form id="contact-form">
+                    <div id="contact-form">
                         <div class="success">Mesajınız iletildi!<br>
                             <strong>En kısa zamanda sizinle iletişime geçeceğiz.</strong>
                         </div>
@@ -50,7 +50,7 @@
                                 <a class="btn" href="#" data-type="submit">GÖNDER</a>
                             </div>
                         </fieldset>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
