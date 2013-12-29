@@ -1,6 +1,6 @@
 /*css*/
-@import "../css/reset.css";
-@import "../css/skeleton.css";
+@import url('reset.css');
+@import url('skeleton.css');
 
 
 
