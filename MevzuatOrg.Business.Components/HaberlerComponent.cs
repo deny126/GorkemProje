@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using MevzuatOrg.Data;
 using System.Transactions;
-using MevzuatOrg.Business.Entities;
 
 namespace MevzuatOrg.Business.Components
 {
-    public class MevzuatOrgComponent
+    public class HaberlerComponent
     {
         /// <summary>
         /// Submit an Haberler.
@@ -33,7 +32,7 @@ namespace MevzuatOrg.Business.Components
             }
             //}
 
-            Console.WriteLine("New HaberlerID = " + Haberler.HaberId.ToString());
+            Console.WriteLine("New HaberlerID = " + Haberler.Id.ToString());
 
             return Haberler;
         }
@@ -133,7 +132,7 @@ namespace MevzuatOrg.Business.Components
         /// get a list of categories 
         /// </summary>
         /// <returns></returns>
-        public List<Makaleler> ListMakaleler()
+        public List<Category> ListCategories()
         {
             CategoryDAC category = new CategoryDAC();
             return category.Select();
