@@ -108,7 +108,7 @@
     <Compile Include="Makaleler.cs">
       <DependentUpon>ModelMevzuatOrg.tt</DependentUpon>
     </Compile>
-    <Compile Include="MevzuatOrgEntities.cs" />
+    <Compile Include="MevzuatDBEntities.cs" />
     <Compile Include="ModelMevzuatOrg.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

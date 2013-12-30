@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using MevzuatOrg.Business.Entities;
+using System.Linq;
+using System.Data.Linq;
+using System.Data.Linq.Mapping;
 
 namespace MevzuatOrg.Data
 {
@@ -19,7 +21,7 @@ namespace MevzuatOrg.Data
         {
             Haberler result = null;
 
-            MevzuatOrgEntities ctx = MevzuatOrgEntities.Context;
+            MevzuatDBEntities ctx = MevzuatDBEntities.Context;
             
             result = ctx.Haberler.First(c => c.HaberId == Id);
 
