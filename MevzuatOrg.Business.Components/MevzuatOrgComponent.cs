@@ -8,7 +8,7 @@ using MevzuatOrg.Business.Entities;
 
 namespace MevzuatOrg.Business.Components
 {
-    public class HaberlerComponent
+    public class MevzuatOrgComponent
     {
         /// <summary>
         /// Submit an Haberler.
@@ -133,7 +133,7 @@ namespace MevzuatOrg.Business.Components
         /// get a list of categories 
         /// </summary>
         /// <returns></returns>
-        public List<Category> ListCategories()
+        public List<Makaleler> ListMakaleler()
         {
             CategoryDAC category = new CategoryDAC();
             return category.Select();
