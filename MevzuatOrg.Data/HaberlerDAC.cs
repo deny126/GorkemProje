@@ -12,7 +12,18 @@ namespace MevzuatOrg.Data
         {
             List<Haberler> resultsList = null;
 
+            return resultsList;
+        }
 
+        public Haberler GetHaber(int Id)
+        {
+            Haberler result = null;
+
+            MevzuatOrgEntities ctx = MevzuatOrgEntities.Context;
+            
+            result = ctx.Haberler.First(c => c.HaberId == Id);
+
+            return result;
         }
     }
 }
