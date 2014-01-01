@@ -5,6 +5,8 @@ using MevzuatOrg.Business.Entities;
 using System.Linq;
 using System.Data.Linq;
 using System.Data.Linq.Mapping;
+using System.Diagnostics;
+using System.Data;
 
 namespace MevzuatOrg.Data
 {
