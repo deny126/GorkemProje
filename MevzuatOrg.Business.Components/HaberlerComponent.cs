@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using MevzuatOrg.Data;
 using System.Transactions;
+using MevzuatOrg.Business.Entities;
 
 namespace MevzuatOrg.Business.Components
 {
@@ -32,7 +33,7 @@ namespace MevzuatOrg.Business.Components
             }
             //}
 
-            Console.WriteLine("New HaberlerID = " + Haberler.Id.ToString());
+            Console.WriteLine("New HaberlerID = " + Haberler.HaberId.ToString());
 
             return Haberler;
         }
