@@ -236,6 +236,20 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MevzuatOrg.Business.Components\MevzuatOrg.Business.Components.csproj">
+      <Project>{63528ae5-2d3f-48d3-95dc-c3836e661b8c}</Project>
+      <Name>MevzuatOrg.Business.Components</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MevzuatOrg.Business.Entities\MevzuatOrg.Business.Entities.csproj">
+      <Project>{86bf0c61-ebe0-4d75-b14c-b7e803341143}</Project>
+      <Name>MevzuatOrg.Business.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MevzuatOrg.Data\MevzuatOrg.Data.csproj">
+      <Project>{37a533cf-2dc1-4d68-ac17-0e3803ac0f29}</Project>
+      <Name>MevzuatOrg.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -7,18 +7,18 @@ using System.Web;
 
 namespace MevzuatOrg.Business.Entities
 {
-    public partial class MevzuatOrgEntities
+    public partial class MevzuatDBEntities
     {
-        public static MevzuatOrgEntities Context
+        public static MevzuatDBEntities Context
         {
             get
             {
                 string objectContextKey = HttpContext.Current.GetHashCode().ToString("x");
                 if (!HttpContext.Current.Items.Contains(objectContextKey))
                 {
-                    HttpContext.Current.Items.Add(objectContextKey, new MevzuatOrgEntities());
+                    HttpContext.Current.Items.Add(objectContextKey, new MevzuatDBEntities());
                 }
-                return HttpContext.Current.Items[objectContextKey] as MevzuatOrgEntities;
+                return HttpContext.Current.Items[objectContextKey] as MevzuatDBEntities;
             }
         }
 
